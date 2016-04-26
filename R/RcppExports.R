@@ -5,7 +5,3 @@ durationinforce <- function(time, surv) {
     .Call('stactuar_durationinforce', PACKAGE = 'stactuar', time, surv)
 }
 
-rcpp_hello <- function() {
-    .Call('stactuar_rcpp_hello', PACKAGE = 'stactuar')
-}
-
